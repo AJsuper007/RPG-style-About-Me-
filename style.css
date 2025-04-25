@@ -45,3 +45,15 @@ body {
   padding: 10px;
   border-top: 2px dashed #fff;
 }
+
+#music-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-family: 'Press Start 2P', cursive;
+  padding: 10px;
+  background-color: #444;
+  color: #fff;
+  border: 2px solid #fff;
+  cursor: pointer;
+}

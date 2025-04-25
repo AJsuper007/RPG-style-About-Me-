@@ -33,3 +33,12 @@ function goTo(place) {
       content.innerHTML = "<p>It’s quiet here… too quiet.</p>";
   }
 }
+
+function toggleMusic() {
+  const music = document.getElementById("bg-music");
+  if (music.paused) {
+    music.play();
+  } else {
+    music.pause();
+  }
+}
