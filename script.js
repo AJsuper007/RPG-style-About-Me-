@@ -26,7 +26,7 @@ function goTo(place) {
       content.innerHTML = `
         <h2>🕳️ Code Cave</h2>
         <p>Deep in this cave, you’ll find Andreas’ hidden GitHub repositories.</p>
-        <p><a href="https://github.com/your-username" target="_blank">Explore the treasure hoard!</a></p>
+        <p><a href="https://github.com/AJsuper007" target="_blank">Explore the treasure hoard!</a></p>
       `;
       break;
     default:
