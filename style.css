@@ -61,11 +61,12 @@ body {
 #pixel-map {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px; /* or whatever width you want */
   height: auto;
-  z-index: 0; /* Behind all other things */
-  opacity: 0.7; /* Optional: make it a little transparent */
+  z-index: 0;
+  opacity: 0.8; /* optional */
 }
 
 #game > *:not(#pixel-map) {
