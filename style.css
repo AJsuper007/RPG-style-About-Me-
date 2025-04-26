@@ -60,13 +60,13 @@ body {
 
 #pixel-map {
   position: absolute;
-  top: 0;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
-  width: 800px; /* or whatever width you want */
+  width: 100%;
   height: auto;
+  transform: translate(-50%, -50%);
   z-index: 0;
-  opacity: 0.8; /* optional */
+  opacity: 0.8; /* Optional */
 }
 
 #game > *:not(#pixel-map) {
