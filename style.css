@@ -57,3 +57,18 @@ body {
   border: 2px solid #fff;
   cursor: pointer;
 }
+
+#pixel-map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 0; /* Behind all other things */
+  opacity: 0.7; /* Optional: make it a little transparent */
+}
+
+#game > *:not(#pixel-map) {
+  position: relative;
+  z-index: 1;
+}
